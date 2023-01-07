@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.AB, function () {
+    datalogger.deleteLog(datalogger.DeleteType.Full)
+})
 let sunis = 0
 let thermis = 0
 basic.showIcon(IconNames.Square)
